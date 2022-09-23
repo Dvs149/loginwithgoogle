@@ -12,7 +12,7 @@
   </head>
   <body>
     <h1>Hello, {{auth()->user()->name}}!</h1>
-    
+    <a href="{{route('logout')}}">logout</a>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
